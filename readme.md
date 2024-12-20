@@ -38,9 +38,8 @@ mv .env.example .env
 
 Finally, start the development server:
 
-````bash
+```bash
 npm run dev
-```NEXT_PUBLIC_API_URL
 
 Your Todo App Client should now be running and accessible in your browser.
 
@@ -49,4 +48,4 @@ Your Todo App Client should now be running and accessible in your browser.
 If you have any questions or feedback, please feel free to reach out.
 
 Happy coding!
-````
+```
