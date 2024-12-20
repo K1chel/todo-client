@@ -13,7 +13,7 @@ export const TasksList = () => {
 
   if (isLoading) return <TasksListLoader />;
 
-  const totalTasks = tasks?.length;
+  const totalTasks = tasks?.length ?? 0;
   const completedTasks = tasks?.filter((task) => task.completed).length;
   const completedTaskText =
     totalTasks === 0 ? "0" : `${completedTasks} of ${totalTasks}`;
